@@ -1,12 +1,8 @@
 # Person Management Vue Frontend
 
-Vue 3 + TypeScript + Vite frontend for the Person API.
+Vue  + TypeScript + Vite frontend for the Person API.
 
 ## API
-
-The frontend expects the API at:
-
-http://localhost:8081
 
 Endpoints:
 
@@ -34,14 +30,12 @@ http://localhost:5173
 
 ## Important security note
 
-The supplied `.env` is intended only for local development.
+Missing .env for environment variables
 
-Do not deploy Basic Auth credentials in a browser-based Vue application. Vite environment variables are bundled into frontend assets and can be inspected by users.
-
-For production, use a suitable authentication architecture such as a backend-for-frontend, secure session-based authentication, OAuth2/OIDC, or another server-side mechanism.
+Vite environment variables are bundled into frontend assets and can be inspected by users.
 
 ## Backend CORS
 
-The browser considers `localhost:5173` and `localhost:8081` different origins. Add the CORS configuration from `SPRING_BOOT_CORS.java.txt` to the Spring Boot application.
+This application uses a springboot backend
 
 If Spring Security is enabled, CORS must also be enabled in the SecurityFilterChain.
