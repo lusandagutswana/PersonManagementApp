@@ -2,8 +2,8 @@
   <div class="app-shell">
     <header class="topbar">
       <div>
-        <h1>Person Management</h1>
-        <p>Manage person records through the Person API</p>
+        <h2>Person Management App</h2>
+        <p>Manage person records through the person API</p>
       </div>
 
       <nav>

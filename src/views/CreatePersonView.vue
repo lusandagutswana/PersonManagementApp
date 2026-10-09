@@ -2,7 +2,7 @@
   <div>
     <div class="page-heading">
       <div>
-        <h2>Create Person</h2>
+        <h2>Create</h2>
         <p>Create a new person record.</p>
       </div>
     </div>

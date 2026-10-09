@@ -76,7 +76,7 @@
             id="nationalityTypeKey"
             v-model="form.nationalityTypeKey"
             type="text"
-            placeholder="e.g. SOUTH_AFRICAN"
+            placeholder="e.g. SOUTH-AFRICAN"
           />
         </div>
 
